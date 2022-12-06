@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap');
+
+/* VARIABLES*/
+:root{
+    --primaryColor: #ffc401;
+    --secondaryColor:#0c0c0c;
+    --gris:#363639;
+    --titleSize: 40px;
+    --parrafoSize: 18px;
+    --fontFamily: 'Montserrat', 'sans-serif';
+   }
+
+/*HEADER
+========================== */
+header{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    padding-top: 10px;
+    background-image: url("../img/fheater.png");
+    background-size: cover;
+  }
+
+  header .bg-portafolio{
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+
+header nav ul li a{
+    color: #ffffff !important;
+    font-size: var(--parrafoSize);
+    font-weight: 600 !important;
+    transition: .4s;
+   }
+#hero{
+    width: 100%;
+    position: relative;
+}
+header #hero .cont-right{
+    margin-top: 30px;
+    padding-top: 230px;
+     
+   }
+   header #hero .cont-right h3{
+   
+    color: #0c081d;
+    font-size: 35px;
+    font-weight: 350;
+    padding-top: 10px;
+    padding-left: 50px;
+   }
+   header #hero .cont-right h3:hover{
+    transition: 0.5s;
+    color: rgb(20, 97, 97);
+    font-size: 40px;
+    font-weight: bold;
+    }
+   header #hero .cont-left{
+    margin-top: 30px;
+    padding-top: 230px;
+     
+   }
+   header #hero .cont-left h2{
+    
+    color: #0c081d;
+    font-size: 35px;
+    font-weight: 350;
+    padding-top: 120px;
+    padding-left: 200px;
+   }
+
+   header #hero .cont-left h2:hover{
+    transition: 0.5s;
+    color: rgb(20, 97, 97);
+    font-size: 40px;
+    font-weight: bold;
+    
+    
+   }
+
+header #hero .cont-left img{
+ margin-top: 80px;
+ padding-top: 50px;
+ width: 50%;
+ padding-left: 10px;
+ margin-left: 200px;
+
+}
+/*MAIN SECCTION
+========================== */
+main{
+    width: 1005;
+    position: relative;
+   }
+/*SOBRE MI
+========================== */
+   
+   #sobremi{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-image: url("../img/fsobremi.png");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+   }
+   #sobremi h2{
+    padding-top: 50px;
+   }
+   #sobremi article .img1{
+    width: 65%;
+    margin-top: 80px; 
+    margin-right: 80px;
+  }
+  #sobremi article .p1{
+    width: 60%;
+    text-align: justify;  
+    padding-top: 120px;
+    margin-left: 50px;
+    
+  }
+  #sobremi article .p2{
+    width: 60%;
+    text-align: justify;  
+    margin-top: 80px;
+    margin-left: 170px;
+  }
+
+  #sobremi article .img2{
+    width: 65%;
+    margin-top: 110px;
+    margin-left: 80px;
+      
+  }
+/*ESTUDIOS
+========================== */
+  #estudios{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-image: url("../img/festudios.png");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+
+  }
+  #estudios h2{
+    padding-top: 50px;
+   color: #ffffff;
+  }
+
+  #estudios img{
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: #0c0c0c;
+
+  }
+  #estudios .img1{
+    margin-right: 80px;  
+  }
+  #estudios .img2{
+    margin-right: 80px;
+  }
+  #estudios .img3{
+    margin-left: 80px;    
+  }
+  #estudios .img4{
+    margin-left: 80px;    
+  }
+/*PORTAFOLIO
+========================== */
+  #portafolio{
+    width: 100%;   
+    margin: 0px;
+    position: relative;
+    min-height: 100vh;
+    background-image: url("../img/fportafolio.png");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  #portafolio h2{
+    padding-top: 50px;
+    color: #ffffff;
+  }
+  #portafolio .container{
+    margin-top: 80px;
+    margin-bottom:80px;
+    width: 50%;
+    text-align: center;
+  }
+  
+/* HABILIDADES
+========================== */
+#habilidades{
+  width: 100%;   
+  position: relative;
+  min-height: 100vh;
+  background-image: url("../img/fhabilidades.png");
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+#habilidades h2{
+  padding-top: 50px;
+  color: #ffffff;
+}
+#habilidades .container{
+  margin-top: 0px;
+  margin-bottom:0px;
+  text-align: center;
+}
+#habilidades .elipse{
+  margin-top:  200px;
+  
+}
+#habilidades .elipse img{
+   width: 85%;
+}
+.img_titulo{
+  width: 40px;
+  height: 50px;
+  
+}
+/* CONTACTO
+========================== */
+#contacto{
+  width: 100%;   
+  position: relative;
+  min-height: 100vh;
+  background-image: url("../img/fcontacto.png");
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 30px; 
+}
+
+#contacto h2{
+  margin-top: 50px;
+  color: #ffffff;
+ 
+}
+#contacto .bg-contacto{
+  margin-top: 50px;
+}
+#contato .bg-formulario{
+  margin-top: 90px;
+}
+/* FOOTER
+========================== */
+
+footer{
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  background: var(--gris);
+  color: #ffffff;
+  text-align: center; 
+}
+footer img{
+  width: 3%;
+  padding-inline: 5px;
+ }
+footer p{
+ padding-top: 10px; 
+
+}
+/*boton flotante*/
+.btn-Whapsapp{
+justify-items: right;
+  width: 100%;
+  position: fixed;
+    z-index: 999;
+}
+
+.btn-Whapsapp img{
+margin-left: 1190px;
+  
+  width:60px
+}
+
+
+
+  
+ 
+ 
